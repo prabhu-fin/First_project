@@ -6,14 +6,15 @@ st.title("Finance Calculator with Enhanced Layout and Facility Margins")
 
 # Define styles for the boxes
 BOX_STYLE = """
+    background-color: #e6f7ff; /* Light blue background */
     padding: 15px;
     border-radius: 10px;
-    border: 1px solid #d9e1f2;
+    border: 1px solid #99d6ff; /* Slightly darker border */
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 """
 
-# Basic Sales/Purchase Details section with outer box
+# Basic Sales/Purchase Details section with light blue background
 with st.expander("Basic Sales/Purchase Details", expanded=True):
     st.markdown(f"<div style='{BOX_STYLE}'>", unsafe_allow_html=True)
 
